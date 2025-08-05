@@ -3,3 +3,4 @@ python-dotenv
 google-generativeai
 google-api-core
 protobuf
+google
