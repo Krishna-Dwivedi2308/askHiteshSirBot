@@ -1,4 +1,4 @@
 streamlit
 python-dotenv
-google-generativeai
-protobuf<4.0.0  # Avoids compatibility issues
+google-genai
+protobuf # Avoids compatibility issues

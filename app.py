@@ -7,10 +7,11 @@ import os
 # Load environment variables
 # load_dotenv()
 GEMINI_API_KEY = st.secrets["gemini"]["api_key"]
-
+print(GEMINI_API_KEY)
 
 # Initialize Gemini client
-client = genai.Client()
+client = genai.Client(api_key=GEMINI_API_KEY)
+
 
 # System prompt as you provided
 system_prompt = """
